@@ -2,8 +2,6 @@ name: Customized Bundle Deployment
 
 on:
   push:
-    paths:
-      - "shopify/product-bundler-public-remix-ssr/**"
     branches:
       - main
   workflow_dispatch:
